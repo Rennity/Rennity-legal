@@ -147,12 +147,14 @@ a {
 }
 
 .hero-logo {
+    display: block;
+
     width: 120px;
     height: 120px;
 
     object-fit: contain;
 
-    margin-bottom: 24px;
+    margin: 0 auto 24px;
 
     filter:
         drop-shadow(
